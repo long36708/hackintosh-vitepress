@@ -35,9 +35,20 @@ https://github.com/jaromeyer/XPS9570-Firmware-IFR
 XPS15 9570这个本本有些特别无法在默认的BIOS设置下直接启动到U盘里的环境
 需要在开机出现dell logo的时候按下F12 然后将引导模式改为传统模式+安全启动关闭
 
-## ‌RTS525A 网卡
+## ‌RTS525A 网卡 PCI Express Card Reader
 ‌RTS525A是一款USB无线网卡，由Realtek公司生产‌。
 
 它支持802.11n标准，传输速率可达150Mbps，适用于笔记本电脑和台式机，提供稳定的无线连接。
 
 该网卡采用USB接口，安装方便，适合需要高速无线连接的用户使用‌
+https://github.com/0xFireWolf/RealtekCardReader/
+## kextupdater
+https://github.com/MacThings/kextupdater/
+
+## 生成自己的CPU变频数据
+- 生成自己的CPU变频数据 [one-key-cpufriend](https://github.com/stevezhengshiqi/one-key-cpufriend)
+- 开启HIDPI [one-key-hidpi](https://github.com/xzhih/one-key-hidpi)
+- 修复深度睡眠、定制USBPort [Hackintool](https://github.com/headkaze/Hackintool/releases)
+- 若无法登录 iMessage、FaceTime：1.[内建网卡](https://github.com/daliansky/OC-little/tree/master/13-%E4%BB%BF%E5%86%92%E4%BB%A5%E5%A4%AA%E7%BD%91%E5%92%8C%E9%87%8D%E7%BD%AE%E4%BB%A5%E5%A4%AA%E7%BD%91BSD%20Name)、2.修改 PlatformInfo，修改前请务必退出当前AppleID，否则账号将可能被拉黑
+  > 用默认序列号可以登录的就不要再折腾了，用 OC 版全新安装完一般都可以登录的，无法登录很可能是账号被拉黑了）
+    
